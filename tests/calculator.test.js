@@ -1,7 +1,11 @@
-const { add } = require('../src/calculator');
+const { calculateDiscount } = require("../src/calculator");
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(add(1, 2)).toBe(3);
+test("Debe aplicar 20% de descuento para VIP con más de 1000", () => {
+  expect(calculateDiscount(1200, "VIP", "Monday")).toBe(960);
+});
+
+test("Debe aplicar 5% para Regular con menos de 500", () => {
+  expect(calculateDiscount(400, "Regular", "Tuesday")).toBe(380);
 });
 
 
