@@ -3,5 +3,5 @@ projectKey=sebastiannpy_calidad-software-taller1
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.68867
 dashboardUrl=https://sonarcloud.io/dashboard?id=sebastiannpy_calidad-software-taller1
-ceTaskId=AZn4VgionBgOhrVYtBA9
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZn4VgionBgOhrVYtBA9
+ceTaskId=AZn4vujM_2nZ1cmwBCdJ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZn4vujM_2nZ1cmwBCdJ
