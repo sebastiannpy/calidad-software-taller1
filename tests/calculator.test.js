@@ -1,4 +1,3 @@
-// tests/calculator.test.js
 const { calculate } = require('../src/calculator');
 
 describe('calculate', () => {
